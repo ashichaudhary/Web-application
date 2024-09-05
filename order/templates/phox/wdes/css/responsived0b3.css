@@ -1,0 +1,172 @@
+/* Smart Phones */
+@media only screen and (min-width: 160px) and (max-width: 992px) {
+  section#main-body section#home-banner .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#main-body section#home-banner .row .wdes-domain-info {
+    text-align: center;
+    width: 100%;
+  }
+  section#main-body section#home-banner .row .wdes-domain-info > h2 {
+    font-size: 22px;
+  }
+  section#main-body section#home-banner .row .wdes-domain-img {
+    max-width: 100%;
+    height: 270px;
+    padding-left: 0;
+    margin: 60px auto 0;
+  }
+  section#main-body section#home-banner .row > div {
+    width: 100%;
+  }
+  section#main-body .home-shortcuts {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#main-body .home-shortcuts li {
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 25px;
+  }
+  section#main-body .wdes-tweets-block .wdes-items-blocks {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section#main-body .wdes-tweets-block .wdes-items-blocks div.announcement-single {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  section#header .wdes-header section#main-menu {
+    position: absolute;
+    top: 26px;
+    right: 0;
+    display: block;
+    width: 100%;
+  }
+  section#header .wdes-header section#main-menu button.navbar-toggle {
+    padding: 0;
+    margin: 0;
+    padding-right: 15px;
+  }
+  section#header .wdes-header section#main-menu button.navbar-toggle .icon-bar {
+    background-color: #666;
+  }
+  section#header .wdes-header section#main-menu div#primary-nav {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    border: 0;
+    background-color: var(--head-clr);
+    right: 0;
+    margin: 0;
+    z-index: 999;
+  }
+  section#header .wdes-header section#main-menu div#primary-nav .navbar-nav {
+    margin: 0;
+    text-align: left;
+  }
+  section#header .wdes-header section#main-menu div#primary-nav .navbar-nav > li {
+    display: block;
+  }
+  section#header .wdes-header section#main-menu div#primary-nav .navbar-nav > li > a {
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  section#header .wdes-header section#main-menu div#primary-nav .navbar-nav > li > a:hover {
+    color: #242424;
+  }
+  section#header .wdes-header section#main-menu .navbar-main .navbar-nav ul.dropdown-menu {
+    background-color: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-top: 0;
+  }
+  section#header .wdes-header ul.top-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section#main-body section#home-banner .wdes-domain-info .wdes-input-group input.form-control {
+    padding: 12px;
+  }
+  .hide-mob {
+    display: none;
+  }
+  .hide-desktop {
+    display: initial;
+  }
+  .navbar-main li.account {
+    background-color: transparent;
+  }
+  .navbar-main li.account:focus {
+    background-color: transparent;
+  }
+  .navbar-main li.account a {
+    padding: 10px 0;
+    color: #666;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+  }
+  .navbar-main li.account a:hover, .navbar-main li.account a:focus {
+    color: #242424;
+    background-color: transparent;
+  }
+  .sidebar .panel-sidebar .panel-body,
+  .sidebar .panel-sidebar .list-group {
+    display: block !important;
+  }
+  .wdes-flex-mob {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wdes-flex-mob .main-content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+  }
+  .wdes-flex-mob .sidebar {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+  }
+  .tiles {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .tiles .tile {
+    width: calc(100% / 2 - 15px);
+    margin-bottom: 25px;
+  }
+  div.dataTables_wrapper div.dataTables_length label {
+    padding: 10px 0;
+  }
+  div.dataTables_wrapper div.dataTables_info {
+    padding: 21px 10px !important;
+  }
+  .listtable {
+    overflow: auto;
+  }
+  a.logo {
+    display: inline-block;
+    z-index: 999999;
+    position: relative;
+  }
+}
+
+@media (max-width: 600px) {
+  .dataTables_wrapper .dataTables_filter label .form-control {
+    margin: 0;
+    width: 28%;
+    float: right;
+    margin-top: -21px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

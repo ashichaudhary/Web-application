@@ -1,0 +1,32 @@
+header {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+a.elementor-item,
+.elementor-icon-list-item a,
+.elementor-icon-list-item a span .elementor-text-editor p,
+.elementor-text-editor,
+.elementor-element.elementor-element-edit-mode,
+.elementor-inline-editing,
+.elementor-element-editable,
+p {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.wdes-tabs-control-icon-left {
+  margin-right: 5px;
+}
+
+.elementor-image-box-title a {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
